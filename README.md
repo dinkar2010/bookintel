@@ -8,7 +8,10 @@ The Book Intelligence System is a platform designed to analyze and extract meani
 * Reviews: Add review for books
 * Summary: Generate summary based on the content
 
-    
+### Required Parameter for the book and review POST request:
+* books(title, genre, year_published,summary text)
+* reviews(reviewer, content, rating(in range of 0-5 inclusive)
+
 ## Installation
   ### Prerequisites
     Python 3.10+
